@@ -2,15 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "bpmsdb": {
-    "host": "ubuntu.estebanf.com",
-    "port": 3306,
-    "url": "mysql://root:everteam@ubuntu.estebanf.com:3306/bpmsdb",
-    "database": "bpmsdb",
-    "password": "everteam",
-    "name": "bpmsdb",
-    "user": "root",
-    "connector": "mysql"
   }
 }
