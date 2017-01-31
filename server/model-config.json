@@ -35,6 +35,10 @@
   "BtsCustomer": {
     "dataSource": "bpmsdb",
     "public":true
+  },
+  "touchpoint": {
+    "dataSource": "mongodb",
+    "public": true
   }
 
 }

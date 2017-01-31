@@ -7,5 +7,12 @@ module.exports = {
     name: "bpmsdb",
     user: process.env.USERNAME || "root",
     connector: "mysql"
-  }
+  },
+  mongodb: {
+      host: process.env.MONGOHOST || "localhost",
+      port: 27017,
+      database: "floridablue",
+      name: "mongodb",
+      connector: "mongodb"
+    }  
 }

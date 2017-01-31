@@ -1,0 +1,27 @@
+{
+  "name": "touchpoint",
+  "plural": "touchpoints",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "memberid": {
+      "type": "string",
+      "required": true
+    },
+    "channelid": {
+      "type": "string",
+      "required": true
+    },
+    "timestamp": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
